@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+			/*Global Styles*/
+			body { background: #ffffff;	margin: 0; padding: 0; min-width: 100%!important;}
+			a { color: #7f217a; text-decoration: none; font-weight: bold;}
+			img {height: auto;}
+			.content { margin-top: 20px; margin-bottom: 20px; }
+			p { white-space: nowrap;}
+			
+			/*Media Queries*/
+			@media only screen and (max-width: 651px){
+				.columns{width:500px !important;}
+				.columncontainer{display:block !important; width:100% !important;}
+				.role {font-size: 16px;}
+				.name {font-size: 30px;}
+			}
+			@media only screen and (min-width: 651px) {
+				.content {width: 650px !important;}
+			}
+			.firsttable { padding: 0px 0px 30px 0px; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;}
+			.secontable {width:500px; border:0; cellpadding:0; cellspacing:0; whitespace:nowrap;}
+			.thirdtable {border:0; cellpadding:0; cellspacing:0; width:300px; class:columns;}
+			.fourthtable {valign:top;}
+			.fifthtable {width:10%; class:columncontainer; display:block; width:130px; margin-right: 30px;}
+			.imgtable {height:115px; padding: 30px 0px 0px 0px;}
+			.imgtable2 {border:0; cellpadding:0; cellspacing:0; width:100%;}
+			.texttable {width:90%; class:columncontainer;}
+			.texttable2 {valign:top; padding: 30px 30px 0px 20px;}
+			.texttable3 {border:0; cellpadding:0; cellspacing:0; width:100%;}
+			.textable4 {border:0; cellspacing:0; cellpadding:0; width:500px;}
+			.textbody {font-family: Arial; font-size: 13px; font-weight: normal; color: #333333;line-height:160%}
+			.name {font-weight: normal; line-height:150%; whitespace:nowrap !important;}
